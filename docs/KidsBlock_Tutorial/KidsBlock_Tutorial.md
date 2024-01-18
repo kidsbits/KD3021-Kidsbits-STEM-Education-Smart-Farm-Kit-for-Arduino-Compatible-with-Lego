@@ -6,13 +6,11 @@
 
 ## 2. KidsBlock Development Environment Configuration:
 
-<br>
 
 <span style="color: rgb(0, 209, 0);">**Please refer to the link to install and use the KidsBlock software：** </span>
 [https://kidsblocksite.readthedocs.io/en/latest/](https://kidsblocksite.readthedocs.io/en/latest/)
+<br>
 
-<br>
-<br>
 <br>
 
 <span style="color: rgb(255, 76, 65);">**Note:** The control board used in this kit is the kidsIOT board. For importing the kidsIOT board, libraries and sample codes, please refer to the following content.</span>
@@ -20,7 +18,7 @@
 <br>
 <br>
 
-1.Click![Img](media/152.png) to enter the main page, and select the control board needed. In this project, we select the kidsIOT mainboard and click **Connect**, then it is connected. Click Go to Editor to return the code editor. Icon![Img](media/153.png) will change into ![Img](./media/2.png) and ![Img](media/155.png) will change into ![Img](media/156.png). This means the kidsIOT mainboard and ports（COM)are connected.
+1\. Click![Img](media/152.png) to enter the main page, and select the control board needed. In this project, we select the kidsIOT mainboard and click **Connect**, then it is connected. Click Go to Editor to return the code editor. Icon![Img](media/153.png) will change into ![Img](./media/2.png) and ![Img](media/155.png) will change into ![Img](media/156.png). This means the kidsIOT mainboard and ports（COM)are connected.
 
 ![5](media/5.png)
 
@@ -32,7 +30,7 @@
 
 ![image8](media/8.png)
 
-2.If the kidsIOT mainboard is connected , but icon![Img](media/161.png) doesn’t change into ![Img](media/162.png). You need to click to connect the COM port. Click![Img](media/163.png). Then you will find a page pop up, showing Connected.
+2\. If the kidsIOT mainboard is connected , but icon![Img](media/161.png) doesn’t change into ![Img](media/162.png). You need to click to connect the COM port. Click![Img](media/163.png). Then you will find a page pop up, showing Connected.
 
 ![image](media/666.png)
 
@@ -50,7 +48,7 @@ To disconnect the port, just click![Img](media/165.png) and Disconnect.
 
 ![12](media/12.png)
 
-3.![Img](media/172.png)stands for extension libraries of sensors and modules. Click ![Img](media/173.png)to enter the page of extension libraries, click a sensor or module to add. For example, if click the **esp32 passive buzzer** module,**Not loaded** will change into **Loaded**. Then the passive buzzer![Img](media/174.png) is added.                           
+3\. ![Img](media/172.png)stands for extension libraries of sensors and modules. Click ![Img](media/173.png)to enter the page of extension libraries, click a sensor or module to add. For example, if click the **esp32 passive buzzer** module,**Not loaded** will change into **Loaded**. Then the passive buzzer![Img](media/174.png) is added.                           
 ![img](media/15.png)
 
 ![image](media/16.png)
@@ -69,7 +67,7 @@ If you want to delete the **passive buzzer**, click![Img](media/180.png) to sele
 
 The way of deleting other sensors or modules is as same as the passive buzzer.
 
-4.How to open SB3 type files：
+4\. How to open SB3 type files：
 
 The first method： Double-click SB3 type files to open them. For instance, open![Img](./media/23.png), then we need to double-click it.
 
@@ -163,7 +161,7 @@ Connect the kidsIOT mainboard to your computer via USB cable.
 
 ![Img](./media/1-3.png)
 
-##### 1. Knowledge
+##### (1). Knowledge
 
 （1）To keep the light on, the electricity is needed. When we say that  there is electricity, we mean that there is current flowing through an  electrical appliance like a light. Current comes to our home from the  power station via wires. And the generator of a power station is the  power supply, which enables to provide voltage and current. The battery  we usually use is also the power supply. Wires can be used to conduct  electricity, which connect a path for the current to flow. This path is  called a circuit. If we want to make a lamp emit light, both a power supply and a complete circuit are needed.
 
@@ -171,7 +169,7 @@ Connect the kidsIOT mainboard to your computer via USB cable.
 
 
 
-##### 2. Programming Steps
+##### (2). Programming Steps
 
 ###### Step 1：Description of the Building Blocks
 
@@ -229,7 +227,7 @@ It will do one thing forever.
 
 ![Img](./media/1-26.png)
 
-##### 3. Test Result
+##### (3). Test Result
 
 Click![Img](./media/1-27.png) to upload the above complete code to the kidsIOT mainboard. After powering up via the USB cable, the white LED will be on and off for 1s.
 
@@ -244,7 +242,7 @@ We can also realize breathing light effect, flowing water light effect and polic
 
 ![Img](./media/1-28.png)
 
-##### 1. Knowledge
+##### (1). Knowledge
 
 The IO port on the kidsIOT mainboard outputs digital signals, which can only output high level and low level. For example, in the lighting up LEDs project, the digital output of the ESP32 is used, which has only two levels: high (3.3V) and low (0V).
 
@@ -269,7 +267,7 @@ PWM can change the effective output voltage by changing the duty cycle in one cy
 
 ![Img](./media/1-31.png)
 
-##### 2. Programming Steps
+##### (2). Programming Steps
 
 ###### Step 1：Description of the Building Blocks
 
@@ -349,7 +347,7 @@ This is a conditional loop control statement that exit the loop when the number 
 
 ![Img](./media/1-59.png)
 
-##### 3. Test Result
+##### (3). Test Result
 
 Click![Img](./media/1-27.png) to upload the above complete code to the kidsIOT motherboard. After powering up via the USB cable, the LED will gradually brighten and then dim,  like breathing.
 
@@ -357,7 +355,7 @@ Click![Img](./media/1-27.png) to upload the above complete code to the kidsIOT m
 
 ![Img](./media/1-61.png)
 
-##### 1. Knowledge
+##### (1). Knowledge
 
 The principle of the button module is based on the switch circuit.
 
@@ -365,7 +363,7 @@ When the button is pressed, the switch closes, allowing current to pass through 
 
 When not pressed, the switch is in the off state, the pin is pulled high by the pull-up resistor, and the digital input pin detects a high-level signal.
 
-##### 2. Programming Steps
+##### (2). Programming Steps
 
 ###### Step 1：Description of the Building Blocks
 
@@ -429,7 +427,7 @@ It is used to read the digital signal value of the specified pin（0 or 1).
 
 ![Img](./media/1-85.png)
 
-##### 3. Test Result
+##### (3). Test Result
 
 Click![Img](./media/1-27.png) to upload the above complete code to the kidsIOT motherboard. After powering up via the USB cable, click ![Img](./media/1-87.png) in the serial monitor and set the baud rate to 15200. When the button is not pressed, the serial monitor prints the digital signal 1, when pressed, the digital signal 0 is printed.
 
@@ -439,11 +437,11 @@ Click![Img](./media/1-27.png) to upload the above complete code to the kidsIOT m
 
 ![Img](./media/1-89.png)
 
-##### 1. Knowledge
+##### (1). Knowledge
 
 Self-locking button: It locks when pressed and will not automatically pop up. It will pop up only when pressed again, which is very similar to a switch. The switch can be turned on and off using self-locking buttons. If it is controlled by the kidsIOT mainboard, this operation can also be achieved via software.
 
-##### 2. Programming Steps
+##### (2). Programming Steps
 
 ###### Step 1：Description of the Building Blocks
 
@@ -490,7 +488,7 @@ When the button is pressed once, the button becomes 1, when pressed again, it be
 
 ![Img](./media/1-98.png)
 
-##### 3. Test Result
+##### (3). Test Result
 
 Click![Img](./media/1-27.png) to upload the above complete code to the kidsIOT motherboard. After powering up via the USB cable, click ![Img](./media/1-87.png) in the serial monitor and set the baud rate to 15200. When the button is pressed, the serial monitor prints the number 1, and when pressed again, the monitor prints the number 0, so as to achieve the self-locking function of buttons.
 
@@ -500,13 +498,13 @@ Click![Img](./media/1-27.png) to upload the above complete code to the kidsIOT m
 
 ![Img](./media/1-101.png)
 
-##### 1. Programming Steps
+##### (1). Programming Steps
 
-###### Step 1: Flow Chart
+###### Step 1：Flow Chart
 
 ![Img](./media/1-102.png)
 
-###### Step 2: Write the Program
+###### Step 2：Write the Program
 
 ① Based on the code of the self-locking button above, add the relevant blocks for turning the LED on and off.
 
@@ -516,11 +514,11 @@ Click![Img](./media/1-27.png) to upload the above complete code to the kidsIOT m
 
 ![Img](./media/1-104.png)
 
-##### 2. Test Result
+##### (2). Test Result
 
 Click![Img](./media/1-27.png) to upload the above complete code to the kidsIOT motherboard, then power up via the USB cable. When the button is pressed for the first time, the LED is turned on. When pressed for the second time, the LED is turned off. When pressed for the third time, the LED is turned on again..., which is consistent with the LED switch in real life.
 
-
+![Img](./media/1-107.jpg)
 
 #### 10. Common Problems
 
@@ -556,7 +554,7 @@ When the ambient brightness is lower than the set value, the photoresisitor will
 #### 2. Components
 
 |![Img](./media/A1.png)|![Img](./media/A5.png)|![Img](./media/A8.png)|
-| :--: | :--: | :--: | :--: |
+| :--: | :--: | :--: | 
 |kidsIOT Mainboard×1|Photoresistor×1|White LED Module×1|
 |![Img](./media/A21.png)|![Img](./media/A19.png)|![Img](./media/A30.png)|
 |Wire×2|USB Cable×1| Light Controlled System LEGO Pieces×1 |
@@ -565,11 +563,11 @@ When the ambient brightness is lower than the set value, the photoresisitor will
 
 #### 3. Assembly Steps
 
-##### Step 1: Components Needed
+##### Step 1：Components Needed
 
 ![Img](./media/Z-2-1.png)
 
-##### Step 2: Process
+##### Step 2：Process
 
 Process 1：
 
@@ -613,7 +611,7 @@ Connect the kidsIOT mainboard to your computer via USB cable.
 
 ![Img](./media/2-3.png)
 
-##### 1. Programming Steps
+##### (1). Programming Steps
 
 ###### Step 1：Description of the Building Blocks
 
@@ -643,7 +641,7 @@ It is used to read the analog signal value of the specified pin.
 
 ![Img](./media/2-9.png)
 
-##### 2. Test Result
+##### (2). Test Result
 
 Click![Img](./media/1-27.png) to upload the above complete code to the kidsIOT motherboard. After powering up via the USB cable, click ![Img](./media/1-87.png) in the serial monitor and set the baud rate to 15200. Then the serial monitor will print the value read by the photoresistor. When the light detected by the photoresistor is brighter, the monitor prints a larger value, otherwise, the monitor prints a smaller value.
 
@@ -653,13 +651,13 @@ Click![Img](./media/1-27.png) to upload the above complete code to the kidsIOT m
 
 ![Img](./media/2-13.png)
 
-##### 1. Programming Steps
+##### (1). Programming Steps
 
-###### Step 1. Flow Chart
+###### Step 1：Flow Chart
 
 ![Img](./media/2-14.png)
 
-###### Step 2: Write the Program
+###### Step 2：Write the Program
 
 ① Delete the "<span style="color: rgb(255, 76, 65);">Wait 0.5 seconds</span>" block in the complete program above, and then drag "**Set pin IO2 mode input**" block from the "**Pin**" module to the script area. Change "**input**" to "**output**".
 
@@ -673,11 +671,11 @@ Click![Img](./media/1-27.png) to upload the above complete code to the kidsIOT m
 
 ![Img](./media/2-17.png)
 
-##### 2. Test Result
+##### (2). Test Result
 
 Click![Img](./media/1-27.png) to upload the above complete code to the kidsIOT motherboard, then power up via the USB cable. When the light is strong during the day and the value of  the photoresistor is greater than 700, the LED will turn off. After dark, when the value is less than or equal to 700, the LED will automatically turn on.
 
-
+![Img](./media/2-19.jpg)
 
 #### 7. Common Problems　
 
@@ -711,11 +709,11 @@ The automatic feeding system is composed of a kidsIOT main board, an ultrasonic 
 
 #### 3. Assembly Steps
 
-##### Step 1: Components Needed
+##### Step 1：Components Needed
 
 ![Img](./media/Z-3-1.png)
 
-##### Step 2: Process
+##### Step 2：Process
 
 Process 1：
 
@@ -836,7 +834,7 @@ Connect the kidsIOT mainboard to your computer via USB cable.
 
 ![Img](./media/3-3.png)
 
-##### 1. Programming Steps
+##### (1). Programming Steps
 
 ###### Step 1：Description of the Building Block
 
@@ -844,7 +842,7 @@ Connect the kidsIOT mainboard to your computer via USB cable.
 
 Set the servo's channel and output (rotation) angle to the specified PWM pin.
 
-###### Step 2: Write the Program
+###### Step 2：Write the Program
 
 ① Set the pin IO33 (<span style="color: rgb(255, 76, 65);">control pinio33</span>) connected to the servo to "**Output**" mode.
 
@@ -862,7 +860,7 @@ Set the servo's channel and output (rotation) angle to the specified PWM pin.
 
 ![Img](./media/3-8.png)
 
-##### 2. Test Result
+##### (2). Test Result
 
 Click![Img](./media/1-27.png) to upload the above complete code to the kidsIOT motherboard, then power up via the USB cable, then servo will rotate.
 
@@ -870,9 +868,9 @@ Click![Img](./media/1-27.png) to upload the above complete code to the kidsIOT m
 
 ![Img](./media/3-10.png)
 
-##### 1. Programming Steps
+##### (1). Programming Steps
 
-###### Step 1: Add the Ultrasonic Sensor
+###### Step 1：Add the Ultrasonic Sensor
 
 Tap the “Sensor” module in the “Extension” , then select “**Ultrasonic Sensor**” and click ![Img](media/781.png)to return to the programming interface.
 
@@ -882,13 +880,13 @@ Tap the “Sensor” module in the “Extension” , then select “**Ultrasonic
 
 ![Img](./media/3-15.png)
 
-###### Step 2: Description of the Building Block
+###### Step 2：Description of the Building Block
 
 ![Img](./media/3-16.png)
 
 This block is used to measure distance to the specified pin, and the distance unit can be cm or inch.
 
-###### Step 3: Write the Program
+###### Step 3：Write the Program
 
 ① Set the baud rate to 15200.
 
@@ -906,7 +904,7 @@ This block is used to measure distance to the specified pin, and the distance un
 
 ![Img](./media/3-20.png)
 
-##### 2. Test Result
+##### (2). Test Result
 
 Click![Img](./media/1-27.png) to upload the above complete code to the kidsIOT motherboard. After powering up via the USB cable, click ![Img](./media/1-87.png) in the serial monitor and set the baud rate to 15200. Move your hand in front of the ultrasonic sensor. When you are close to it, the displayed distance value becomes smaller. When you move away from it, the value becomes larger.
 
@@ -916,13 +914,13 @@ Click![Img](./media/1-27.png) to upload the above complete code to the kidsIOT m
 
 ![Img](./media/3-24.png)
 
-##### 1. Programming Steps
+##### (1). Programming Steps
 
-###### Step 1. Flow Chart
+###### Step 1：Flow Chart
 
 ![Img](./media/3-25.png)
 
-###### Step 2. Programming Steps
+###### Step 2：Programming Steps
 
 ① Set the baud rate to 15200, the Trig pin of the ultrasonic sensor <span style="color: rgb(255, 76, 65);">IO18</span> to "**output**" mode, and the Echo pin <span style="color: rgb(255, 76, 65);">IO19</span> to "**input**" mode.
 
@@ -948,7 +946,7 @@ Click![Img](./media/1-27.png) to upload the above complete code to the kidsIOT m
 
 ![Img](./media/3-31.png)
 
-##### 2. Test Result
+##### (2). Test Result
 
 Click![Img](./media/1-27.png) to upload the above complete code to the kidsIOT motherboard. After powering up via the USB cable, click ![Img](./media/1-87.png) in the serial monitor and set the baud rate to 15200. If an animal is detected within 2cm-9cm, the feed box will be opened  to feed the animal.
 
@@ -988,11 +986,11 @@ The anti-theft alarm system is composed of a PIR motion sensor, a buzzer, a LED 
 
 #### 3. Assembly Steps
 
-##### Step 1: Components Needed
+##### Step 1：Components Needed
 
 ![Img](./media/Z-4-1.png)
 
-##### Step 2: Process
+##### Step 2：Process
 
 Process 1：
 
@@ -1071,7 +1069,7 @@ Connect the kidsIOT mainboard to your computer via USB cable.
 
 ##### Method 1
 
-###### 1. Knowledge
+###### (1). Knowledge
 
 The passive buzzer is driven by square waves. Let's simulate the square waves below.
 The high and low levels of the pin can simulate a square wave: keeping the high level for 1000us and the low level for 1000us can make the buzzer sound.
@@ -1080,7 +1078,7 @@ The high and low levels of the pin can simulate a square wave: keeping the high 
 
 Changing the time of high and low level can change the sound volume of the buzzer. You can try changing it to 1500us, 2000us, 3000us...
 
-###### 2. Write the Program
+###### (2). Write the Program
 
 ① Initialize the buzzer's pin **IO23** and "**Output**" mode.
 
@@ -1103,20 +1101,20 @@ By f=1/T, changing high and low levels in 1000us, we can know that the frequency
 
 ![Img](./media/4-7.png)
 
-###### 3. Test Result
+###### (3). Test Result
 
 Click![Img](./media/1-27.png) to upload the above complete code to the kidsIOT motherboard. After powering up via the USB cable, the passive buzzer will make sound.
 
 ##### Method 2
 
-###### 1. Knowledge
+###### (1). Knowledge
 
 Use the "passive buzzer" code block to drive.
 The "passive buzzer" code block can generate a fixed-frequency PWM signal to drive the passive buzzer to sound. The sounding time length (beat) and sounding frequency can be controlled via parameters.
 
 ![Img](./media/4-9.png)
 
-###### 2. Add “passive buzzer” 
+###### (2). Add “passive buzzer” 
 
 Tap the “Actuator” module in the “Extension” , then select “**<span style="color: rgb(255, 76, 65);">esp32 Passive buzzer</span>**” and click ![Img](media/781.png)to return to the programming interface.
 
@@ -1126,7 +1124,7 @@ Tap the “Actuator” module in the “Extension” , then select “**<span st
 
 ![Img](./media/4-14.png)
 
-###### 3. Description of the Building Block
+###### (3). Description of the Building Block
 
 ![Img](./media/4-9.png)
 
@@ -1139,7 +1137,7 @@ Set the passive buzzer to play specific music to the specified pin.
 
 Set the passive buzzer to make no sound to the specified pin.
 
-###### 4. Write the Program
+###### (4). Write the Program
 
 ① Initialize the buzzer's pin **IO23** and "**Output**" mode.
 
@@ -1157,7 +1155,7 @@ Set the passive buzzer to make no sound to the specified pin.
 
 ![Img](./media/4-21.png)
 
-###### 5. Test Result
+###### (5). Test Result
 
 Click![Img](./media/1-27.png) to upload the above complete code to the kidsIOT motherboard. After powering up via the USB cable, the passive buzzer will make sounds with different tones.
 
@@ -1165,7 +1163,7 @@ Click![Img](./media/1-27.png) to upload the above complete code to the kidsIOT m
 
 ![Img](./media/4-23.png)
 
-###### 1. Write the Program
+###### (1). Write the Program
 ① The buzzer pin is <span style="color: rgb(255, 76, 65);">**IO23**</span>, and then select a piece of music (we take **Birthday** as an example here) .
 
 ![Img](./media/4-24.png)
@@ -1174,7 +1172,7 @@ Click![Img](./media/1-27.png) to upload the above complete code to the kidsIOT m
 
 ![Img](./media/4-25.png)
 
-###### 2. Test Result
+###### (2). Test Result
 
 Click![Img](./media/1-27.png) to upload the above complete code to the kidsIOT mainboard. After powering up via the USB cable, the passive buzzer will play a "Happy Birthday" music.
 
@@ -1184,7 +1182,7 @@ Click![Img](./media/1-27.png) to upload the above complete code to the kidsIOT m
 
 ![Img](./media/4-27.png)
 
-###### Step 1: Write the Program
+###### Step 1：Write the Program
 
 ① Set the baud rate to 15200.
 
@@ -1206,7 +1204,7 @@ Click![Img](./media/1-27.png) to upload the above complete code to the kidsIOT m
 
 ![Img](./media/4-32.png)
 
-###### Step 2: Test Result
+###### Step 2：Test Result
 
 Click![Img](./media/1-27.png) to upload the above complete code to the kidsIOT motherboard. After powering up via the USB cable, click ![Img](./media/1-87.png) in the serial monitor and set the baud rate to 15200. 
 
@@ -1223,13 +1221,13 @@ When the sensor detects movement of a person or animal, the serial monitor windo
 
 ![Img](./media/4-36.png)
 
-##### 1. Programming Steps
+##### (1). Programming Steps
 
-###### Step 1. Flow Chart
+###### Step 1：Flow Chart
 
 ![Img](./media/4-37.png)
 
-###### Step 2: Write the Program
+###### Step 2：Write the Program
 
 ①Set the baud rate to 15200, the IO27 pin of PIR motion sensor to "**input**" mode.
 
@@ -1255,13 +1253,15 @@ When the sensor detects movement of a person or animal, the serial monitor windo
 
 ![Img](./media/4-43.png)
 
-##### 2：Test Result
+##### (2). Test Result
 
 Click![Img](./media/1-27.png) to upload the above complete code to the kidsIOT mainboard. After powering up via the USB cable, click ![Img](./media/1-87.png) in the serial monitor and set the baud rate to 15200. 
 
 When the sensor detects that someone or an animal is moving, the buzzer sounds, the servo rotates to close the door, and the serial monitor prints "Someone"; otherwise, the buzzer does not sound, the servo rotates to open the door, and the monitor prints "No one".
 
 ![Img](./media/4-46.png)
+
+![Img](./media/4-47.jpg)
 
 #### 9. Common Problems　
 
@@ -1282,7 +1282,6 @@ Avoid interference from strong light within the detection range, such as sunligh
 
 <span style="color: rgb(255, 76, 65);">Note: Sprinkling water on other sensors will cause a short circuit and device failure. Sprinkling water on batteries will cause heating and explosion. Please be careful when using the device, especially when used by young children, it must be under the supervision of parents. To ensure safe operation of the device, please follow relevant usage guidelines and safety regulations.</span>
 
-<br>
 <br>
 
 ![Img](./media/5-0.jpg)
@@ -1306,13 +1305,13 @@ For example, the buzzer can be used to sound an alarm to alert the user that it 
 
 #### 3. Assembly Steps
 
-##### Step 1: Components Needed
+##### Step 1：Components Needed
 
 
 
 ![Img](./media/Z-5-1.png)
 
-##### Step 2: Process
+##### Step 2：Process
 
 Process 1：
 
@@ -1369,7 +1368,7 @@ Connect the kidsIOT mainboard to your computer via USB cable.
 
 ![Img](./media/5-3.png)
 
-###### Step 1: Write the Program
+###### Step 1：Write the Program
 
 ① Set the baud rate to 15200.
 
@@ -1403,9 +1402,9 @@ Then the serial monitor will print the value(range：0~4095) read by the steam s
 
 ![Img](./media/5-12.png)
 
-##### 1. Programming Steps
+##### (1). Programming Steps
 
-###### Step 1. Flow Chart
+###### Step 1：Flow Chart
 
 ![Img](./media/5-13.png) 
 
@@ -1442,9 +1441,11 @@ Then the serial monitor will print the value(range：0~4095) read by the steam s
 
 ![Img](./media/5-21.png)
 
-##### 2. Test Result
+##### (2). Test Result
 
 Click![Img](./media/1-27.png) to upload the above complete code to the kidsIOT mainboard. After powering up via the USB cable, when the rain value detected by the sensor is larger, the buzzer alarm sound will be louder.
+
+![Img](./media/5-23.jpg)
 
 #### 7. Common Problems　
 
@@ -1483,11 +1484,11 @@ What's more, it enables to adjust the ambient temperature and humidity and displ
 
 #### 3. Assembly Steps
 
-##### Step 1: Components Needed
+##### Step 1：Components Needed
 
 ![Img](./media/Z-6-1.png)
 
-##### Step 2: Process
+##### Step 2：Process
 
 Process 1：
 
@@ -1524,7 +1525,7 @@ Connect the kidsIOT mainboard to your computer via USB cable, connect the extern
 
 ![Img](./media/6-3.png)
 
-##### 1. Programming Steps
+##### (1). Programming Steps
 
 ###### Step 1：Description of the Building Block
 
@@ -1600,7 +1601,7 @@ This is a command block that sets strings to start scrolling in a certain direct
 
 This is the command block to set stop scrolling.
 
-###### Step 2: Write the Program
+###### Step 2：Write the Program
 
 ① Initialize the OLED with width 128, height 64 and I2C address 0x78 (0x3c).
 
@@ -1690,7 +1691,7 @@ This is the command block to set stop scrolling.
 
 ![Img](./media/6-43.png)
 
-##### 2. Test Result
+##### (2). Test Result
 
 Click![Img](./media/1-27.png) to upload the above complete code to the kidsIOT motherboard. After powering up via the external power supply, the OLED display on the kidsIOT board displays various patterns and English letters.
 
@@ -1699,9 +1700,9 @@ Click![Img](./media/1-27.png) to upload the above complete code to the kidsIOT m
 
 ![Img](./media/6-45.png)
 
-##### 1. Programming Steps
+##### (1). Programming Steps
 
-###### Step 1: Add “DC Motor” 
+###### Step 1：Add “DC Motor” 
 
 Tap ![Img](./media/6-46.png), click the “Actuator” module in the “Extension” , then select “**<span style="color: rgb(255, 76, 65);">DC Motor for esp32</span>**” and click ![Img](media/781.png)to return to the programming interface.
 
@@ -1711,7 +1712,7 @@ Tap ![Img](./media/6-46.png), click the “Actuator” module in the “Extensio
 
 ![Img](./media/6-50.png)
 
-###### Step 2: Description of the Building Block
+###### Step 2：Description of the Building Block
 
 ![Img](./media/6-51.png)
 
@@ -1722,7 +1723,7 @@ Set the high and low level states of the motor INA pin and INB pin.
 Set the high and low level status of the motor INA pin and the analog output value of the INB pin in certain channels.
 If the INA pin is in a high-level state, the smaller the INB analog output value, the faster the fan rotates; and if the INA pin is in a low-level state, the larger the INB analog output value, the faster the fan rotates.
 
-###### Step 3: Write the Program
+###### Step 3：Write the Program
 
 ① The pin INA of the motor module is IO18, the level is low, the INB pin is IO19, the channel is CH0 (LT0), and the analog output value is 0, then the motor does not rotate.
 
@@ -1736,7 +1737,7 @@ If the INA pin is in a high-level state, the smaller the INB analog output value
 
 ![Img](./media/6-55.png)
 
-④ Set the motor pin INA to low level and the analog output value of the INB pin to different values, then the motor rotates anticlockwise at different speeds.
+④ Set the motor pin INA to high level and the analog output value of the INB pin to different values, then the motor rotates anticlockwise at different speeds.
 
 ![Img](./media/6-56.png)
 
@@ -1748,7 +1749,7 @@ If the INA pin is in a high-level state, the smaller the INB analog output value
 
 ![Img](./media/6-58.png)
 
-##### 2. Test Result
+##### (2). Test Result
 
 Click![Img](./media/1-27.png) to upload the above complete code to the kidsIOT motherboard. After powering up via the external power supply, the motor rotates clockwise at different speeds and stops for 3 seconds, and then rotates counterclockwise at different speeds and stops for 3 seconds.
 
@@ -1756,9 +1757,9 @@ Click![Img](./media/1-27.png) to upload the above complete code to the kidsIOT m
 
 ![Img](./media/6-60.png)
 
-##### 1. Programming Steps
+##### (1). Programming Steps
 
-###### Step 1: Add “temperature and humidity sensor” 
+###### Step 1：Add “temperature and humidity sensor” 
 
 Tap ![Img](./media/6-46.png), click the “Sensor” module in the “Extension” , then select “**<span style="color: rgb(255, 76, 65);">DHT sensor for esp32</span>**” and click ![Img](media/781.png)to return to the programming interface.
 
@@ -1778,7 +1779,7 @@ Initialize the pin and mode of the temperature and humidity sensor (dht11, dht21
 
 Read the temperature and humidity from the temperature and humidity sensor.
 
-###### Step 3: Write the Program
+###### Step 3：Write the Program
 
 ① Set the baud rate to 15200.
 
@@ -1796,7 +1797,7 @@ Read the temperature and humidity from the temperature and humidity sensor.
 
 ![Img](./media/6-71.png)
 
-##### 2. Test Result
+##### (2). Test Result
 
 Click![Img](./media/1-27.png) to upload the above complete code to the kidsIOT mainboard. After powering up via the USB cable, click ![Img](./media/1-87.png) in the serial monitor and set the baud rate to 15200. Then the serial port prints the temperature and humidity in the current environment.
 
@@ -1806,13 +1807,13 @@ Click![Img](./media/1-27.png) to upload the above complete code to the kidsIOT m
 
 ![Img](./media/6-75.png)
 
-##### 1. Programming Steps
+##### (1). Programming Steps
 
-###### Step 1. Flow Chart
+###### Step 1：Flow Chart
 
 ![Img](./media/6-76.png)
 
-###### Step 2: Write the Program
+###### Step 2：Write the Program
 ①Initialize pin IO23 of the temperature and humidity sensor, and select the dht11 mode.
 
 ![Img](./media/6-77.png)
@@ -1829,7 +1830,7 @@ Click![Img](./media/1-27.png) to upload the above complete code to the kidsIOT m
 
 ![Img](./media/6-80.png)
 
-⑤ Store the read <span style="color: rgb(255, 76, 65);">temperature data</span> into the "temperature" variable. The read <span style="color: rgb(255, 76, 65);">Humidity data</span> is stored in the "humidity" variable.
+⑤ Store the read <span style="color: rgb(255, 76, 65);">temperature data</span> into the "temperature" variable. The read <span style="color: rgb(255, 76, 65);">humidity data</span> is stored in the "humidity" variable.
 
 ![Img](./media/6-81.png)
 
@@ -1845,11 +1846,13 @@ Click![Img](./media/1-27.png) to upload the above complete code to the kidsIOT m
 
 ![Img](./media/6-84.png)
 
-##### 2. Test Result
+##### (2). Test Result
 
 Click![Img](./media/1-27.png) to upload the above complete code to the kidsIOT mainboard. After powering up via the external power, the OLED displays the temperature and humidity in the current environment. 
 
 When the temperature reaches 29°C or the humidity reaches 80%RH, the motor will turn on to dissipate heat or dehumidify (the fan simulates heat dissipation and dehumidification, and the heat dissipation and dehumidification effect is average); otherwise, the motor will turn off to achieve automatic farm temperature  and humidity control effect.
+
+![Img](./media/6-86.jpg)
 
 #### 9. Common Problems　
 
@@ -1892,11 +1895,11 @@ The system can display the value of the soil moisture sensor in real time throug
 
 #### 3. Assembly Steps
 
-##### Step 1: Components Needed
+##### Step 1：Components Needed
 
 ![Img](./media/Z-7-1.png)
 
-##### Step 2: Process
+##### Step 2：Process
 
 Process 1：
 
@@ -1978,7 +1981,7 @@ Connect the kidsIOT mainboard to your computer via USB cable.
 
 ![Img](./media/7-3.png)
 
-##### 1. Write the Program
+##### (1). Write the Program
 
 ① Set the baud rate to 15200.
 
@@ -2000,7 +2003,7 @@ Connect the kidsIOT mainboard to your computer via USB cable.
 
 ![Img](./media/7-8.png)
 
-##### 2. Test Result
+##### (2). Test Result
 
 Click![Img](./media/1-27.png) to upload the above complete code to the kidsIOT board. After powering up via the USB cable, click ![Img](./media/1-87.png) in the serial monitor and set the baud rate to 15200. 
 
@@ -2012,9 +2015,9 @@ Insert the soil moisture sensor into the soil (or touch the sensor with wet hand
 
 ![Img](./media/7-12.png)
 
-##### 1. Programming Steps
+##### (1). Programming Steps
 
-###### Step 1. Flow Chart
+###### Step 1：Flow Chart
 
 ![Img](./media/7-13.png)
 
@@ -2048,7 +2051,7 @@ Insert the soil moisture sensor into the soil (or touch the sensor with wet hand
 
 ![Img](./media/7-20.png)
 
-##### 2. Test Result
+##### (2). Test Result
 
 Click![Img](./media/1-27.png) to upload the above complete code to the kidsIOT mainboard. After powering up via the USB cable, insert the soil moisture sensor into the soil (or touch the sensor with wet hands), when the sensor detects that the moisture of the soil (or the moisture of your hands) is less than the set threshold, the buzzer will sound an alarm.
 
@@ -2106,7 +2109,7 @@ Connect the kidsIOT mainboard to your computer via USB cable.
 
 ![Img](./media/8-3.png)
 
-##### 1. Write the Program
+##### (1). Write the Program
 
 ① Set the baud rate to 15200.
 
@@ -2128,7 +2131,7 @@ Connect the kidsIOT mainboard to your computer via USB cable.
 
 ![Img](./media/8-8.png)
 
-##### 2. Test Result
+##### (2). Test Result
 
 Click![Img](./media/1-27.png) to upload the above complete code to the kidsIOT mainboard. After powering up via the USB cable, click ![Img](./media/1-87.png) in the serial monitor and set the baud rate to 15200. 
 
@@ -2140,9 +2143,9 @@ Insert the water level  sensor in the water (or touch the sensor with wet hands)
 
 ![Img](./media/8-12.png)
 
-##### 1. Programming Steps
+##### (1). Programming Steps
 
-###### Step 1. Flow Chart
+###### Step 1：Flow Chart
 
 ![Img](./media/8-13.png)
 
@@ -2176,7 +2179,7 @@ Insert the water level  sensor in the water (or touch the sensor with wet hands)
 
 ![Img](./media/8-20.png)
 
-##### 2. Test Result
+##### (2). Test Result
 
 Click![Img](./media/1-27.png) to upload the above complete code to the kidsIOT mainboard. After powering up via the USB cable, insert the water level sensor in the water (or touch the sensor with wet hands), when the sensor detects that the water level (or the moisture of your hands) is greater than the set threshold, the buzzer will sound an alarm.
 
@@ -2215,7 +2218,7 @@ At the same time, the OLED display will display the dryness of the soil and the 
 |![Img](./media/A13.png)|![Img](./media/A9.png)|![Img](./media/A17.png)|![Img](./media/A22.png)|
 |GPIO Shield×1|Relay Module×1|Water Pump×1| Wire×3 |
 |![Img](./media/A20.png)|![Img](./media/A25.png)|![Img](./media/A24.png)|![Img](./media/A23.png) |
-|Battery Holder×1|Slotted Screwdriver×1|F-F DuPont Wires|M-F DuPont Wires|
+|Battery Holder×1|Slotted Screwdriver×1|M-F DuPont Wires|F-F  DuPont Wires|
 |![Img](./media/A18.png)|![Img](./media/A35.png) |![Img](./media/A28.png) |![Img](./media/A26.png) |
 | Water Pipe×1 |Soil Moisture/Water Level/Automatic Irrigation System LEGO Pieces×1|AA Battery（<span style="color: rgb(255, 76, 65);">Not provide</span>）×6|Sink×2 |
 
@@ -2248,7 +2251,7 @@ Connect the kidsIOT mainboard to your computer via USB cable, connect the extern
 
 ![Img](./media/9-3.png)
 
-##### 1. Write the Program
+##### (1). Write the Program
 
 ① Set the pin IO2 connected to the relay module to "**input**" mode.
 
@@ -2262,19 +2265,17 @@ Connect the kidsIOT mainboard to your computer via USB cable, connect the extern
 
 ![Img](./media/9-6.png)
 
-##### 2. Test Result
+##### (2). Test Result
 
 Click![Img](./media/1-27.png) to upload the above complete code to the kidsIOT mainboard. After powering up via the USB cable, the relay module will control the water pump to pump water.
-
-
 
 #### 6. Automatic Irrigation System
 
 ![Img](./media/9-8.png)
 
-##### 1. Programming Steps
+##### (1). Programming Steps
 
-###### Step 1. Flow Chart
+###### Step 1：Flow Chart
 
 ![Img](./media/9-9.png)
 
@@ -2320,7 +2321,7 @@ Click![Img](./media/1-27.png) to upload the above complete code to the kidsIOT m
 
 ![Img](./media/9-19.png)
 
-##### 2. Test Result
+##### (2). Test Result
 
 Click![Img](./media/1-27.png) to upload the above complete code to the kidsIOT mainboard. After powering up via the USB cable, the OLED displays current soil moisture and sink water level information.
 
@@ -2407,7 +2408,7 @@ Connect the kidsIOT mainboard to your computer via USB cable, connect the extern
 
 ![Img](./media/10-3.png)
 
-##### 1. Knowledge
+##### (1). Knowledge
 
 ![Img](./media/10-4.png)
 
@@ -2424,9 +2425,9 @@ For details about wifi, tap it：[https://docs.espressif.com/projects/esp-idf/en
 
 Espressif official website：[https://www.espressif.com.cn/en/home](https://www.espressif.com.cn/en/home)
 
-##### 2. Programming Steps
+##### (2). Programming Steps
 
-###### Step 1: Add the “Web Page Editing PRO” library
+###### Step 1：Add the “Web Page Editing PRO” library
 
 Tap ![Img](./media/6-46.png), click the “communication” module in the “Extension” , then select “**<span style="color: rgb(255, 76, 65);">Web Page Editing PRO</span>**” and click ![Img](media/781.png)to return to the programming interface.
 
@@ -2480,7 +2481,7 @@ Add a button card to the web page.
 
 ![Img](./media/10-21.png)
 
-##### 3. Test Result
+##### (3). Test Result
 
 Click![Img](./media/1-27.png) to upload the above complete code to the kidsIOT mainboard and power on. Once connected to WiFi, the OLED on the board will display the corresponding IP address (<span style="color: rgb(255, 169, 0);">Here we take the IP address: 192.168.0.48 as an example</span> ).
 
@@ -2505,15 +2506,15 @@ You can enter "<span style="color: rgb(0, 209, 0);">**http://[IP address display
 
 ![Img](./media/10-26.png)
 
-##### 1. Programming Steps
+##### (1). Programming Steps
 
-###### Step 1. Flow Chart
+###### Step 1：Flow Chart
 
 ![Img](./media/10-27.png)
 
-###### Step 2：Add "Passive Buzzer", "DC Motor", "Temperature and Humidity Sensor", "Servo" and "Web Page Editing PRO" libraries
+###### Step 2：Add "Passive Buzzer", "DC Motor", "Temperature and Humidity Sensor" and "Web Page Editing PRO" libraries
 
-Tap ![Img](./media/6-46.png), click "<span style="color: rgb(255, 76, 65);">Actuator</span>" and find "<span style="color: rgb(255, 76, 65);">esp32 respectively Passive buzzer</span>” and “<span style="color: rgb(255, 76, 65);">DC Motor for esp32</span>” . Click "<span style="color: rgb(255, 76, 65);">Sensor</span>" and find "<span style="color: rgb(255, 76, 65);">DHT sensor for ESP32</span>" .
+Tap ![Img](./media/6-46.png), click "<span style="color: rgb(255, 76, 65);">Actuator</span>" and find "<span style="color: rgb(255, 76, 65);">esp32 Passive buzzer</span>” and “<span style="color: rgb(255, 76, 65);">DC Motor for esp32</span>” . Click "<span style="color: rgb(255, 76, 65);">Sensor</span>" and find "<span style="color: rgb(255, 76, 65);">DHT sensor for ESP32</span>" .
 
 Click the “communication” , then select “**<span style="color: rgb(255, 76, 65);">Web Page Editing PRO</span>**” and click ![Img](media/781.png)to return to the programming interface.
 
@@ -2577,7 +2578,7 @@ Click the “communication” , then select “**<span style="color: rgb(255, 76
 
 ![Img](./media/10-48.png)
 
-##### 2. Test Result
+##### (2). Test Result
 
 Click![Img](./media/1-27.png) to upload the above complete code to the kidsIOT mainboard and power on. Once connected to WiFi, the OLED on the board will display the corresponding IP address. You can enter "<span style="color: rgb(255, 76, 65);">**http://[IP address displayed on the OLED]**</span>" in the browser to view the web page . The sensor data can be viewed on the web page, and LEDs and fans can also be controlled.
 
@@ -2601,12 +2602,12 @@ Click![Img](./media/1-27.png) to upload the above complete code to the kidsIOT m
 
 #### 7. Common Problems　
 
-##### Q1: You can’t connect the WiFi?
+##### Q1：You can’t connect the WiFi?
 
 A: Please move the kidsIOT board to the vicinity of the router, press the reset button on the board to restart kidsIOT, and wait patiently for the connection. If you still can't connect, please check whether the WiFi name and password are filled in correctly.
 
 
-##### Q2: When remotely operating other sensors on the web page, the response is very slow?
+##### Q2：When remotely operating other sensors on the web page, the response is very slow?
 
 A: Reasons:
 

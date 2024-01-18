@@ -8,7 +8,7 @@
 
 ## 2. Introduction:
 
-Based on the Arduino IoT, the smart farm integrates multiple sensors such as a photoresistor, a soil moisture sensor, a water level sensor as well as a WiFi wireless communication module in a way that achieves automation, wireless operation and intelligent management. What’s more, it is capable of realizing intelligent functions such as sensing, early warning, decision-making and analysis.
+Based on the ESP32 IoT, the smart farm integrates multiple sensors such as a photoresistor, a soil moisture sensor, a water level sensor as well as a WiFi wireless communication module in a way that achieves automation, wireless operation and intelligent management. What’s more, it is capable of realizing intelligent functions such as sensing, early warning, decision-making and analysis.
 
 Therefore, the product contributes to helping you master how to use sensors to build an IoT system, and how to realize smart farm management via KidsBlock graphical programming.
 
