@@ -17,9 +17,9 @@
 
 # -- Project information -----------------------------------------------------
 
-project = 'keyestudio WiKi'
-copyright = 'keyestudio , WiKi'
-author = 'keyestudio WiKi'
+project = 'kidsbits WiKi'
+copyright = 'kidsbits , WiKi'
+author = 'kidsbits WiKi'
 
 # -- General configuration ---------------------------------------------------
 
