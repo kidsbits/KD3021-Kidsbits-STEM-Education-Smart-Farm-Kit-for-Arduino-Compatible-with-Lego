@@ -1,7 +1,7 @@
 
 .. toctree::
    :maxdepth: 3
-   :caption: KD3021 KidsbitsA STEM Education Smart Farm Kit for Arduino Compatible with Lego
+   :caption: KD3021 Kidsbits Smart Farm Kit Compatible with Lego
 
    README.md
    docs/index
