@@ -1,4 +1,4 @@
-# kidsbits STEM Education Smart Farm Kit for Arduino Compatible with Lego
+#  Read Me First(<span style="color: rgb(255, 76, 65);">important</span>)
 
 ![Img](./media/0.jpg)
 
@@ -56,7 +56,6 @@ By the way, detailed projects, sample code and LEGO building are provided in it,
 | 34 | Temperature and Humidity System LEGO Pieces | 1 |![Img](./media/A34.png)|
 | 35 | Soil Moisture/Water Level/Automatic Irrigation System LEGO Pieces | 1 |![Img](./media/A35.png)|
 | 36 | Lego Board | 2 |![Img](./media/A36.png)|
-
 
 
 

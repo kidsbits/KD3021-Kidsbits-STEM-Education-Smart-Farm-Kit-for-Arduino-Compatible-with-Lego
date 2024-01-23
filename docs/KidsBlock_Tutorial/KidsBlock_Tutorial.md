@@ -223,9 +223,7 @@ It will do one thing forever.
 
 ![Img](./media/1-25.png)
 
-⑧ Complete Program
-
-![Img](./media/1-26.png)
+ 
 
 ##### (3). Test Result
 
