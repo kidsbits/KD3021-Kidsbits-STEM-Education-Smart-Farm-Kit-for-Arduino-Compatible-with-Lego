@@ -1,12 +1,7 @@
-# Read Me First
+
+# Product introduction:
 
 ![Img](./media/0.jpg)
-
-## 1. Downloading the code:
-
-* [KidsBlock_Codes](KidsBlock_Codes.zip)
-
-## 2. Introduction:
 
 Based on the ESP32 IoT, the smart farm integrates multiple sensors such as a photoresistor, a soil moisture sensor, a water level sensor as well as a WiFi wireless communication module in a way that achieves automation, wireless operation and intelligent management. What’s more, it is capable of realizing intelligent functions such as sensing, early warning, decision-making and analysis.
 
@@ -15,8 +10,7 @@ Therefore, the product contributes to helping you master how to use sensors to b
 By the way, detailed projects, sample code and LEGO building are provided in it, thus enhancing our hands-on ability, creativity, scientific and technological innovation awareness as well as problem-solving ability.
 
 
-
-## 3. Kit List
+# Kit List
 
 | # | Components | QTY | Picture |
 | :--: | :--: | :--: |:--: |
@@ -57,5 +51,9 @@ By the way, detailed projects, sample code and LEGO building are provided in it,
 | 35 | Soil Moisture/Water Level/Automatic Irrigation System LEGO Pieces | 1 |![Img](./media/A35.png)|
 | 36 | Lego Board | 2 |![Img](./media/A36.png)|
 
+
+# Downloading the code:
+
+* [KidsBlock_Codes](KidsBlock_Codes.zip)
 
 
