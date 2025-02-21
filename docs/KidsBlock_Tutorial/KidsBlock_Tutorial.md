@@ -9,14 +9,9 @@
 
 <span style="color: rgb(0, 209, 0);">**Please refer to the link to install and use the KidsBlock software：** </span>
 [https://kidsblocksite.readthedocs.io/en/latest/](https://kidsblocksite.readthedocs.io/en/latest/)
-<br>
-
-<br>
 
 <span style="color: rgb(255, 76, 65);">**Note:** The control board used in this kit is the kidsIOT board. For importing the kidsIOT board, libraries and sample codes, please refer to the following content.</span>
 
-<br>
-<br>
 
 1\. Click![Img](media/152.png) to enter the main page, and select the control board needed. In this project, we select the kidsIOT mainboard and click **Connect**, then it is connected. Click Go to Editor to return the code editor. Icon![Img](media/153.png) will change into ![Img](./media/2.png) and ![Img](media/155.png) will change into ![Img](media/156.png). This means the kidsIOT mainboard and ports（COM)are connected.
 
@@ -815,7 +810,7 @@ Complete
 | Ultrasonic Adapter Board |No.9 port（Trig--io18，Echo--io19） |
 |Servo|G/V/io33 port（Brown→G，Red→V，Orange→io33）|
 
-<br>
+
 
 | Ultrasonic Sensor | Ultrasonic Adapter Board |
 | :--: | :--: |
@@ -1090,8 +1085,6 @@ The delay function is a microsecond delay, which means the time delay is 1000 mi
 
 <span style="color: rgb(255, 76, 65);">Note: The conversion relationship between seconds, milliseconds and microseconds is: 1 second = 1000 milliseconds = 1000000 microseconds. </span>
 
-<br>
-<br>
 
 By f=1/T, changing high and low levels in 1000us, we can know that the frequency of such a square wave is 1000Hz (that is, the number of high and low level changes per second is 1000 times).
 
@@ -1210,8 +1203,6 @@ When the sensor detects movement of a person or animal, the serial monitor windo
 
 <span style="color: rgb(255, 76, 65);">Note: The sensor does not have penetrating capabilities. When detecting human movement, please do not block it.</span>
 
-<br>
-<br>
 
 ![Img](./media/4-35.png)
 
@@ -1280,7 +1271,6 @@ Avoid interference from strong light within the detection range, such as sunligh
 
 <span style="color: rgb(255, 76, 65);">Note: Sprinkling water on other sensors will cause a short circuit and device failure. Sprinkling water on batteries will cause heating and explosion. Please be careful when using the device, especially when used by young children, it must be under the supervision of parents. To ensure safe operation of the device, please follow relevant usage guidelines and safety regulations.</span>
 
-<br>
 
 ![Img](./media/5-0.jpg)
 
@@ -1869,10 +1859,6 @@ A: When the motor rotates, it requires a larger current than other sensors, whic
 
 <span style="color: rgb(255, 76, 65);">Note: Do not allow water to overflow from sinks and soil troughs when using the device. Sprinkling water on other sensors will cause a short circuit and device failure. Sprinkling water on batteries will cause heating and explosion. Please be careful when using the device, especially when used by young children, it must be under the supervision of parents. To ensure safe operation of the device, please follow relevant usage guidelines and safety regulations.</span>
 
-<br>
-
-<br>
-<br>
 
 ![Img](./media/7-0.png)
 
@@ -1883,11 +1869,15 @@ The system can display the value of the soil moisture sensor in real time throug
 
 #### 2. Components
 
-|![Img](./media/A1.png)|![Img](./media/A16.png)|![Img](./media/A10.png)|![Img](./media/A13.png)|![Img](./media/A22.png)|
-| :--: | :--: | :--: |:--: | :--: |
-|kidsIOT Mainboard×1|Soil Moisture Sensor×1|Passive Buzzer×1|GPIO Shield×1|Wire×2|
-|![Img](./media/A23.png)|![Img](./media/A19.png)|![Img](./media/A35.png)|![Img](./media/A26.png) | |
-|F-F DuPont Wires|USB Cable×1| Soil Moisture/Water Level/Automatic Irrigation System LEGO Pieces×1 |Sink×1| |
+|![Img](./media/A1.png)|![Img](./media/A15.png)|![Img](./media/A16.png)|![Img](./media/A10.png)|
+| :--: | :--: | :--: |:--: |
+|kidsIOT Mainboard×1|Water Level Sensor×1|Soil Moisture Sensor×1|Passive Buzzer×1|
+|![Img](./media/A13.png)|![Img](./media/A9.png)|![Img](./media/A17.png)|![Img](./media/A22.png)|
+|GPIO Shield×1|Relay Module×1|Water Pump×1| Wire×3 |
+|![Img](./media/A20.png)|![Img](./media/A25.png)|![Img](./media/A24.png)|![Img](./media/A23.png) |
+|Battery Holder×1|Slotted Screwdriver×1|M-F DuPont Wires|F-F  DuPont Wires|
+|![Img](./media/A18.png)|![Img](./media/A35.png) |![Img](./media/A28.png) |![Img](./media/A26.png) |
+| Water Pipe×1 |Soil Moisture/Water Level/Automatic Irrigation System LEGO Pieces×1|AA Battery（<span style="color: rgb(255, 76, 65);">Not provide</span>）×6|Sink×2 |
 
 ![Img](./media/7-1.png)
 
@@ -2067,8 +2057,6 @@ A: The detection area of the soil moisture sensor is waterproof. Exceeding the d
 
 <span style="color: rgb(255, 76, 65);">Note: Do not allow water to overflow from sinks and soil troughs when using the device. Sprinkling water on other sensors will cause a short circuit and device failure. Sprinkling water on batteries will cause heating and explosion. Please be careful when using the device, especially when used by young children, it must be under the supervision of parents. To ensure safe operation of the device, please follow relevant usage guidelines and safety regulations.</span>
 
-<br>
-<br>
 
 ![Img](./media/8-0.jpg)
 
@@ -2235,13 +2223,12 @@ At the same time, the OLED display will display the dryness of the soil and the 
 |Passive Buzzer| |No.8 port（control pin is io5）|
 |Relay Module| |No.2 port（control pin is io2）|
 
-<br>
+
 <span style="color: rgb(61, 167, 66);">**Note：** You need to use a slotted screwdriver to loosen the screws at the NO port and COM port of the relay module. Use a m-f DuPont wire to connect the COM port on the module to V on the GPIO shield, and connect the red wire of the water pump to the NO port of the relay module, the black wire of the water pump and the f--f Dupont wire are connected to G of the GPIO shield. After connecting the wires, use the screwdriver to tighten the screws at the NO port and COM port. </span>
-<br>
-<br>
+
 
 Connect the kidsIOT mainboard to your computer via USB cable, connect the external power supply and turn the DIP switch on the mainboard to ON end.
-<br>
+
 
 ![Img](./media/9-2.png)
 
@@ -2345,8 +2332,6 @@ A: When the water pump rotates, it requires a larger current than other sensors,
 
 <span style="color: rgb(255, 76, 65);">Note: Do not allow water to overflow from sinks and soil troughs when using the device. Sprinkling water on other sensors will cause a short circuit and device failure. Sprinkling water on batteries will cause heating and explosion. Please be careful when using the device, especially when used by young children, it must be under the supervision of parents. To ensure safe operation of the device, please follow relevant usage guidelines and safety regulations.</span>
 
-<br>
-<br>
 
 ![Img](./media/10-0.png)
 
@@ -2374,8 +2359,6 @@ In this project, we will focus on the WiFi infrastructure of ESP32 and control t
 
 <span style="color: rgb(255, 76, 65);">Just put the structural shapes assembled in Project 02, Project 06 and Project 07 together . </span>
 
-<br>
-<br>
 
 ![Img](./media/10-1.jpg)
 
@@ -2392,13 +2375,12 @@ In this project, we will focus on the WiFi infrastructure of ESP32 and control t
 |Motor| |No.9 port（IN+control pin is io18，IN-control pin is io19）|
 |Relay Module| |No.3 port（control pin is io26）|
 
-<br>
+
 <span style="color: rgb(61, 167, 66);">Note：You need to use a slotted screwdriver to loosen the screws at the NO port and COM port of the relay module. Use a m-f DuPont wire to connect the COM port on the module to V on the GPIO shield, and connect the red wire of the water pump to the NO port of the relay module, the black wire of the water pump and the f--f Dupont wire are connected to G of the GPIO shield. After connecting the wires, use the screwdriver to tighten the screws at the NO port and COM port. </span>
-<br>
-<br>
+
 
 Connect the kidsIOT mainboard to your computer via USB cable, connect the external power supply and turn the DIP switch on the mainboard to ON end.
-<br>
+
 
 ![Img](./media/10-2.png)
 
@@ -2487,8 +2469,7 @@ Click![Img](./media/1-27.png) to upload the above complete code to the kidsIOT m
 
 <span style="color: rgb(255, 76, 65);">**Note: When the PC, mobile phone and kidsIOT mainboard are connected to the same network, this webpage can be opened on the PC and mobile phone at the same time. Here is the IP address displayed on the OLED on your own kidsIOT board**</span>
 
-<br>
-<br>
+
 
 You can enter "<span style="color: rgb(0, 209, 0);">**http://[IP address displayed on the OLED display]**</span>" in the browser to view the web page . In this way, you will create a simple web page that displays a fixed temperature information and a fixed humidity information:
 
